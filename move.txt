@@ -4,3 +4,6 @@ mv __init__.py mmdet/models/necks
 
 mv sparse_roi_head.py mmdet/models/roi_heads
 mv __init__.py mmdet/models/roi_heads
+
+mv huniform_assigner.py mmdet/core/bbox/assigners
+mv __init__.py mmdet/core/bbox/assigners
