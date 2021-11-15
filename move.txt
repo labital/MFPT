@@ -1,0 +1,6 @@
+mv dilated_encoder_2x.py mmdet/models/necks
+mv dilated_encoder_3x.py mmdet/models/necks
+mv __init__.py mmdet/models/necks
+
+mv sparse_roi_head.py mmdet/models/roi_heads
+mv __init__.py mmdet/models/roi_heads
