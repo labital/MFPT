@@ -10,3 +10,11 @@ Then running the order in 'move.txt' to apply our codes.
 "python setup develop".
 
 Happly running our code!
+
+Training 
+
+bash tools/dist_train.sh config/xxxx N
+
+Testing
+
+python tools/test.py config/xxxx workdirs/xxxx --eval bbox
