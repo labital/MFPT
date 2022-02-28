@@ -1,7 +1,7 @@
-# STOD
-STOD models in mmdetection
+# MFTP
+MFTP models in mmdetection
 
-In this git, STOD-FPNOF3 applying ResNet-50 as the backbone is given.
+In this git, MFPT-FPNOF3 applying ResNet-50 as the backbone is given.
 
 Firstly, you should install the mmdetection as https://github.com/open-mmlab/mmdetection.
 
