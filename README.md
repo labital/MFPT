@@ -7,6 +7,8 @@ Firstly, you should install the mmdetection as https://github.com/open-mmlab/mmd
 
 Then running the order in 'move.txt' to apply our codes.
 
+Also, you should add the module in the corresponding __init__.py.
+
 "python setup develop".
 
 Happly running our code!
