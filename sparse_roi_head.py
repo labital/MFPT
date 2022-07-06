@@ -121,7 +121,7 @@ class SparseRoIHead(CascadeRoIHead):
         bbox_head = self.bbox_head[stage]
         bbox_feats = bbox_roi_extractor(x[:bbox_roi_extractor.num_inputs],
                                         rois)
-        cls_score, bbox_pred, object_feats = bbox_head(bbox_feats,
+        cls_score, bbox_pred, object_feats, _ = bbox_head(bbox_feats,
                                                        object_feats)
         proposal_list = self.bbox_head[stage].refine_bboxes(
             rois,
